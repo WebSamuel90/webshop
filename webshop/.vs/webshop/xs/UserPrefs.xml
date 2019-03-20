@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Modals/Products.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/appsettings.json">
     <Files>
-      <File FileName="webshop/Modals/Products.cs" Line="10" Column="9" />
+      <File FileName="webshop/appsettings.json" Line="3" Column="1" />
+      <File FileName="webshop/Services/ProductsService.cs" Line="22" Column="2" />
+      <File FileName="webshop/Controllers/ProductsController.cs" Line="1" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.webshop FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.ItemProperties.webshop PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,11 @@
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/bin/Release/netcoreapp2.0/webshop.deps.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/bin/Release/netcoreapp2.0/webshop.runtimeconfig.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/bin/Release/netcoreapp2.0/webshop.runtimeconfig.dev.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/bin/Release/netcoreapp2.0/webshop.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/bin/Release/netcoreapp2.0/webshop.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.csprojAssemblyReference.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.csproj.CoreCompileInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.AssemblyInfoInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.AssemblyInfo.cs
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop/obj/Release/netcoreapp2.0/webshop.pdb

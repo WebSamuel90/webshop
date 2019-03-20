@@ -15,3 +15,5 @@ namespace webshop.Modals
         public int price { get; set; }
     }
 }
+
+
