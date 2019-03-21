@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Controllers/ProductsController.cs">
     <Files>
-      <File FileName="webshop/appsettings.json" Line="3" Column="1" />
+      <File FileName="webshop/appsettings.json" Line="3" Column="90" />
       <File FileName="webshop/Services/ProductsService.cs" Line="22" Column="2" />
       <File FileName="webshop/Controllers/ProductsController.cs" Line="1" Column="14" />
     </Files>
