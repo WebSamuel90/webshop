@@ -1,0 +1,17 @@
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/NUnit3.TestAdapter.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/NUnit3.TestAdapter.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/nunit.engine.netstandard.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.UnitTests.deps.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.UnitTests.runtimeconfig.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.UnitTests.runtimeconfig.dev.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.UnitTests.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.UnitTests.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/bin/Release/netcoreapp2.0/webshop.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.csprojAssemblyReference.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.csproj.CoreCompileInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.AssemblyInfoInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.AssemblyInfo.cs
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.csproj.CopyComplete
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.UnitTests/obj/Release/netcoreapp2.0/webshop.UnitTests.pdb

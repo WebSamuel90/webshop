@@ -21,24 +21,24 @@ namespace webshop.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(typeof(List<Products>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(List<Product>), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public IActionResult Get()
         {
             return Ok(this.productsService.Get());
         }
 
-        //[HttpGet("{id}")]
-        //[ProducesResponseType(typeof(List<Products>), StatusCodes.Status200OK)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //public IActionResult Get(int id)
-        //{
-        //    if (this.productsService.Get(id) != null)
-        //    {
-        //        return Ok(this.productsService.Get(id));
-        //    }
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(List<Product>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Get(int id)
+        {
+            if (this.productsService.Get(id) != null)
+            {
+                return Ok(this.productsService.Get(id));
+            }
 
-        //    return NotFound();
-        //}
+            return NotFound();
+        }
     }
 }

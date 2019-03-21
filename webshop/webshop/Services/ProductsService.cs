@@ -7,16 +7,21 @@ namespace webshop.Services
 {
     public class ProductsService
     {
-        private readonly ProductsRepository productsRepository;
+        private readonly IProductsRepository productsRepository;
 
-        public ProductsService(ProductsRepository productsRepository)
+        public ProductsService(IProductsRepository productsRepository)
         {
             this.productsRepository = productsRepository;
         }
 
-        public List<Products> Get()
+        public List<Product> Get()
         {
             return this.productsRepository.Get();
+        }
+
+        public Product Get(int id)
+        {
+            return this.productsRepository.Get(id);
         }
     }
 }
