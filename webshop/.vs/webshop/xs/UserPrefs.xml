@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Repositories/IProductsRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Startup.cs">
     <Files>
-      <File FileName="webshop.IntegrationTests/Services/ProductsServiceTests.cs" Line="60" Column="49" />
+      <File FileName="webshop.IntegrationTests/Services/ProductsServiceTests.cs" Line="82" Column="41" />
       <File FileName="webshop/Repositories/ProductsRepository.cs" Line="37" Column="25" />
       <File FileName="webshop/Services/ProductsService.cs" Line="29" Column="39" />
-      <File FileName="webshop/Repositories/IProductsRepository.cs" Line="11" Column="9" />
+      <File FileName="webshop/Repositories/IProductsRepository.cs" Line="11" Column="35" />
+      <File FileName="webshop/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -15,7 +16,7 @@
                 <Node name="IntegrationTests" expanded="True">
                   <Node name="Services" expanded="True">
                     <Node name="ProductsServiceTests" expanded="True">
-                      <Node name="Get_GivenId_ReturnsResultFromDatabase" selected="True" />
+                      <Node name="Add_GivenValidProductItem_SavesIt" selected="True" />
                     </Node>
                   </Node>
                 </Node>
