@@ -1,0 +1,17 @@
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/NUnit3.TestAdapter.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/NUnit3.TestAdapter.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/nunit.engine.netstandard.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.IntegrationTests.deps.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.IntegrationTests.runtimeconfig.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.IntegrationTests.runtimeconfig.dev.json
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.IntegrationTests.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.IntegrationTests.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/bin/Release/netcoreapp2.0/webshop.pdb
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.csprojAssemblyReference.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.csproj.CoreCompileInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.AssemblyInfoInputs.cache
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.AssemblyInfo.cs
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.csproj.CopyComplete
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.dll
+/Users/samuel/Desktop/YRGO-lektioner/Projekt/webshop/webshop/webshop.IntegrationTests/obj/Release/netcoreapp2.0/webshop.IntegrationTests.pdb

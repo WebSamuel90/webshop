@@ -8,5 +8,6 @@ namespace webshop.Repositories
     {
         List<Product> Get();
         Product Get(int id);
+        void Add(Product product);
     }
 }

@@ -29,7 +29,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                return connection.QuerySingleOrDefault<Product>("SELECT * FROM shoes WHERE Id = $id", new { id });
+                return connection.QuerySingleOrDefault<Product>("SELECT * FROM shoes WHERE Id = @id", new { id });
 
             }
         }
@@ -38,7 +38,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO shoes (id, name, image, brand, quantity, price) VALUES(@id, @name, @image, @brand, @quantity, @price)", product);
+                connection.Execute("INSERT INTO shoes (id, name, image, brand, price) VALUES(@id, @name, @image, @brand, @price)", product);
             }
         }
     }

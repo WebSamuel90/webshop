@@ -23,5 +23,10 @@ namespace webshop.Services
         {
             return this.productsRepository.Get(id);
         }
+
+        public void Add(Product product)
+        {
+            this.productsRepository.Add(product);
+        }
     }
 }

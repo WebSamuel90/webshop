@@ -62,8 +62,7 @@ namespace webshop.UnitTests
                 id = Id,
                 name = "Total90",
                 image = "anUrl",
-                brand = "Adidas",
-                quantity = 10,
+                brand = "Nike",
                 price = 799
             };
 
