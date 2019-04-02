@@ -1,10 +1,5 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Controllers/OrderItemsController.cs">
-    <Files>
-      <File FileName="webshop/Controllers/OrderItemsController.cs" Line="22" Column="106" />
-      <File FileName="webshop/Repositories/OrderItemsRepository.cs" Line="22" Column="90" />
-      <File FileName="webshop/Services/OrderItemsService.cs" Line="19" Column="56" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
