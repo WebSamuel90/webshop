@@ -33,11 +33,11 @@ namespace webshop.Repositories
         }
 
 
-        public void Add(CartItems cartItems)
+        public void Add(CartItems cartItem)
         {
             using (MySqlConnection connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO cartItems (cart_id, product_Id, cart_quantity, cart_guid, product_guid) VALUES (@cart_id, @product_id, @cart_guid, @product_guid)", cartItems);
+                connection.Execute("INSERT INTO cartItems (product_id, cart_guid) VALUES (@product_id, @cart_guid)", cartItem);
             }
         }
     }

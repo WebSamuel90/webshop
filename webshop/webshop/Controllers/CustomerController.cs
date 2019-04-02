@@ -9,50 +9,47 @@ using webshop.Services;
 
 namespace webshop.Controllers
 {
-    public class CustomerController
+    [Route("api/[controller]")]
+    public class CustomerController : Controller
     {
-        [Route("api/[controller]")]
-        public class CartController : Controller
+        private readonly CustomerService customerService;
+
+        public CustomerController(IConfiguration configuration)
         {
-            private readonly CustomerService customerService;
+            var connectionString = configuration.GetConnectionString("ConnectionString");
+            this.customerService = new CustomerService(new CustomerRepository(connectionString));
+        }
 
-            public CartController(IConfiguration configuration)
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult Post([FromBody]Customer customer)
+        {
+            var result = this.customerService.Add(customer);
+
+            if (!result)
             {
-                var connectionString = configuration.GetConnectionString("ConnectionString");
-                this.customerService = new CustomerService(new CustomerRepository(connectionString));
+                return BadRequest();
             }
 
-            [HttpPost]
-            [ProducesResponseType(StatusCodes.Status200OK)]
-            [ProducesResponseType(StatusCodes.Status400BadRequest)]
-            public IActionResult Post([FromBody]Customer customer)
-            {
-                var result = this.customerService.Add(customer);
+            return Ok();
+        }
 
-                if (!result)
-                {
-                    return BadRequest();
-                }
+        [HttpGet]
+        [ProducesResponseType(typeof(List<Customer>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Get()
+        {
+            return Ok(this.customerService.Get());
+        }
 
-                return Ok();
-            }
-
-            [HttpGet]
-            [ProducesResponseType(typeof(List<Customer>), StatusCodes.Status200OK)]
-            [ProducesResponseType(StatusCodes.Status404NotFound)]
-            public IActionResult Get()
-            {
-                return Ok(this.customerService.Get());
-            }
-
-            [HttpGet("{guid}")]
-            [ProducesResponseType(typeof(List<Customer>), StatusCodes.Status200OK)]
-            [ProducesResponseType(StatusCodes.Status404NotFound)]
-            public IActionResult Get(string guid)
-            {
-                var result = this.customerService.Get(guid);
-                return Ok(result);
-            }
+        [HttpGet("{guid}")]
+        [ProducesResponseType(typeof(List<Customer>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Get(string guid)
+        {
+            var result = this.customerService.Get(guid);
+            return Ok(result);
         }
     }
 }

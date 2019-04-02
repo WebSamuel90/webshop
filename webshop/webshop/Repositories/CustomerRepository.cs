@@ -20,7 +20,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                return connection.Query<Customer>("SELECT * FROM customers").ToList();
+                return connection.Query<Customer>("SELECT * FROM customer").ToList();
             }
         }
 
@@ -28,7 +28,7 @@ namespace webshop.Repositories
         {
             using (MySqlConnection connection = new MySqlConnection(this.connectionString))
             {
-                return connection.QuerySingleOrDefault<Customer>("SELECT id, name_customer, adress_customer, cart_guid FROM customer WHERE cart_guid = @guid", new { guid });
+                return connection.QuerySingleOrDefault<Customer>("SELECT name_customer, adress_customer, cart_guid FROM customer WHERE cart_guid = @guid", new { guid });
             }
         }
 
@@ -36,7 +36,7 @@ namespace webshop.Repositories
         {
             using (MySqlConnection connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO customers (name_customer, adress_customer, cart_guid) VALUES (@name_customer, @adress_customer, @cart_guid)", customer);
+                connection.Execute("INSERT INTO customer (name_customer, adress_customer, cart_guid) VALUES (@name_customer, @adress_customer, @cart_guid)", customer);
             }
         }
     }

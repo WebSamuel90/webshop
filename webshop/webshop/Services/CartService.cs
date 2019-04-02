@@ -6,7 +6,7 @@ namespace webshop.Services
 {
     public class CartService
     {
-        private CartRepository cartRepository;
+        private readonly CartRepository cartRepository;
 
         public CartService(CartRepository cartRepository)
         {
