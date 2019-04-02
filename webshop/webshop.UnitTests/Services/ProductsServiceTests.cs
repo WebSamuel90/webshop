@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using FakeItEasy;
 using NUnit.Framework;
-using webshop.Modals;
+using webshop.Models;
 using webshop.Repositories;
 using webshop.Services;
 
@@ -28,12 +28,11 @@ namespace webshop.UnitTests
             // Arrange
             var productItem = new Product
             {
-                id = 20,
-                name = "Total90",
-                image = "anUrl",
-                brand = "Adidas",
-                quantity = 10,
-                price = 799
+                product_id = 20,
+                product_name = "Total90",
+                product_image = "anUrl",
+                product_brand = "Adidas",
+                product_price = 799
             };
 
             var productItems = new List<Product>
@@ -59,11 +58,11 @@ namespace webshop.UnitTests
 
             var productItem = new Product
             {
-                id = Id,
-                name = "Total90",
-                image = "anUrl",
-                brand = "Nike",
-                price = 799
+                product_id = Id,
+                product_name = "Total90",
+                product_image = "anUrl",
+                product_brand = "Nike",
+                product_price = 799
             };
 
             A.CallTo(() => this.productsRepository.Get(Id)).Returns(productItem);

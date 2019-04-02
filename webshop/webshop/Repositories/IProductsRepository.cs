@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using webshop.Modals;
+using webshop.Models;
 
 namespace webshop.Repositories
 {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using webshop.Modals;
+using webshop.Models;
 using webshop.Repositories;
 
 namespace webshop.Services

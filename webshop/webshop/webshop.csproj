@@ -8,7 +8,7 @@
     <Folder Include="wwwroot\" />
     <Folder Include="Services\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Modals\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
   <ItemGroup>

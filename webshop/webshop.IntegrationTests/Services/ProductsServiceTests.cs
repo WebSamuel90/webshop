@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Transactions;
 using NUnit.Framework;
-using webshop.Modals;
+using webshop.Models;
 using webshop.Repositories;
 using webshop.Services;
 
@@ -32,22 +32,22 @@ namespace webshop.IntegrationTests.Services
         {
             var productItem = new Product
             {
-                id = 15,
-                name = "puma one 18.1 fg",
-                image = "https://www.stadium.se/INTERSHOP/static/WFS/Stadium-SwedenB2C-Site/-/Stadium/sv_SE/Detail/256805_103_PUMA_PUMA%20ONE%2018.1%20FG.png",
-                brand = "Puma",
-                price = 1999
+                product_id = 15,
+                product_name = "puma one 18.1 fg",
+                product_image = "https://www.stadium.se/INTERSHOP/static/WFS/Stadium-SwedenB2C-Site/-/Stadium/sv_SE/Detail/256805_103_PUMA_PUMA%20ONE%2018.1%20FG.png",
+                product_brand = "Puma",
+                product_price = 1999
             };
 
             //Act
-            var results = this.productsService.Get(productItem.id);
+            var results = this.productsService.Get(productItem.product_id);
 
             //Assert
-            Assert.That(results.id, Is.EqualTo(productItem.id));
-            Assert.That(results.name, Is.EqualTo(productItem.name));
-            Assert.That(results.image, Is.EqualTo(productItem.image));
-            Assert.That(results.brand, Is.EqualTo(productItem.brand));
-            Assert.That(results.price, Is.EqualTo(productItem.price));
+            Assert.That(results.product_id, Is.EqualTo(productItem.product_id));
+            Assert.That(results.product_name, Is.EqualTo(productItem.product_name));
+            Assert.That(results.product_image, Is.EqualTo(productItem.product_image));
+            Assert.That(results.product_brand, Is.EqualTo(productItem.product_brand));
+            Assert.That(results.product_price, Is.EqualTo(productItem.product_price));
         }
 
         [Test]
@@ -62,11 +62,11 @@ namespace webshop.IntegrationTests.Services
 
             var product = new Product
             {
-                id = ExpectedId,
-                name = ExpectedName,
-                image = ExpectedImage,
-                brand = ExpectedBrand,
-                price = ExpectedPrice
+                product_id = ExpectedId,
+                product_name = ExpectedName,
+                product_image = ExpectedImage,
+                product_brand = ExpectedBrand,
+                product_price = ExpectedPrice
             };
 
             // Act
@@ -81,13 +81,13 @@ namespace webshop.IntegrationTests.Services
             // Assert
             Assert.IsNotNull(addedItem);
 
-            Assert.That(addedItem.id, Is.EqualTo(product.id));
-            Assert.That(addedItem.name, Is.EqualTo(product.name));
-            Assert.That(addedItem.image, Is.EqualTo(product.image));
-            Assert.That(addedItem.brand, Is.EqualTo(product.brand));
-            Assert.That(addedItem.price, Is.EqualTo(product.price));
+            Assert.That(addedItem.product_id, Is.EqualTo(product.product_id));
+            Assert.That(addedItem.product_name, Is.EqualTo(product.product_name));
+            Assert.That(addedItem.product_image, Is.EqualTo(product.product_image));
+            Assert.That(addedItem.product_brand, Is.EqualTo(product.product_brand));
+            Assert.That(addedItem.product_price, Is.EqualTo(product.product_price));
 
-            Assert.That(addedItem.id, Is.AtLeast(1));
+            Assert.That(addedItem.product_id, Is.AtLeast(1));
         }
     }
 }

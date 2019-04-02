@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Dapper;
 using MySql.Data.MySqlClient;
-using webshop.Modals;
+using webshop.Models;
 
 namespace webshop.Repositories
 {
@@ -29,7 +29,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                return connection.QuerySingleOrDefault<Product>("SELECT * FROM shoes WHERE Id = @id", new { id });
+                return connection.QuerySingleOrDefault<Product>("SELECT * FROM shoes WHERE product_Id = @id", new { id });
 
             }
         }
@@ -38,7 +38,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO shoes (id, name, image, brand, price) VALUES(@id, @name, @image, @brand, @price)", product);
+                connection.Execute("INSERT INTO shoes (product_id, product_name, product_image, product_brand, product_price) VALUES(@id, @name, @image, @brand, @price)", product);
             }
         }
     }

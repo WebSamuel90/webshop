@@ -7,10 +7,10 @@ const Product = (props) => {
 
     return (
         <div className='item'>
-            <img src='{productData.image}'/>
-            <p>{productData.brand}</p>
-            <p>{productData.name}</p>
-            <p>{productData.price}</p>
+            <img src={productData.product_image}/>
+            <p>{productData.product_brand}</p>
+            <p>{productData.product_name}</p>
+            <p>{productData.product_price}</p>
         </div>
     );
 };

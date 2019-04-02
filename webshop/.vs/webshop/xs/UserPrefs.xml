@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Repositories/CartItemsRepository.cs">
     <Files>
-      <File FileName="webshop.IntegrationTests/Services/ProductsServiceTests.cs" Line="82" Column="41" />
-      <File FileName="webshop/Repositories/ProductsRepository.cs" Line="37" Column="25" />
-      <File FileName="webshop/Services/ProductsService.cs" Line="29" Column="39" />
-      <File FileName="webshop/Repositories/IProductsRepository.cs" Line="11" Column="35" />
-      <File FileName="webshop/Startup.cs" Line="1" Column="1" />
+      <File FileName="webshop/Repositories/CartItemsRepository.cs" Line="23" Column="88" />
+      <File FileName="webshop/Controllers/CartItemController.cs" Line="40" Column="22" />
+      <File FileName="webshop/Services/CartItemsService.cs" Line="15" Column="9" />
+      <File FileName="webshop/Models/CartItems.cs" Line="1" Column="1" />
+      <File FileName="webshop/Controllers/GuidController.cs" Line="14" Column="25" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
