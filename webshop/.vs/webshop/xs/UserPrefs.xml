@@ -1,16 +1,13 @@
 ﻿<Properties StartupConfiguration="{0DAABB95-50E3-40CC-9BDF-C8BF2983CA91}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Repositories/CartRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="webshop/Repositories/ProductsRepository.cs">
     <Files>
-      <File FileName="webshop/Controllers/CustomerController.cs" Line="13" Column="36" />
-      <File FileName="webshop/Repositories/CustomerRepository.cs" Line="31" Column="115" />
-      <File FileName="webshop/Services/CustomerService.cs" Line="37" Column="6" />
-      <File FileName="webshop/Models/Customer.cs" Line="9" Column="46" />
-      <File FileName="webshop/Services/OrderItemsService.cs" Line="19" Column="56" />
-      <File FileName="webshop/Controllers/OrderItemsController.cs" Line="29" Column="31" />
-      <File FileName="webshop/Repositories/OrderItemsRepository.cs" Line="21" Column="80" />
-      <File FileName="webshop/Models/OrderItems.cs" Line="10" Column="39" />
-      <File FileName="webshop/Models/Cart.cs" Line="15" Column="1" />
-      <File FileName="webshop/Repositories/CartRepository.cs" Line="22" Column="19" />
+      <File FileName="webshop/Controllers/CartController.cs" Line="17" Column="10" />
+      <File FileName="webshop.UnitTests/Services/ProductsServiceTests.cs" Line="30" Column="14" />
+      <File FileName="webshop/Repositories/IProductsRepository.cs" Line="10" Column="29" />
+      <File FileName="webshop/Repositories/ProductsRepository.cs" Line="45" Column="2" />
+      <File FileName="webshop/Services/ProductsService.cs" Line="10" Column="65" />
+      <File FileName="webshop.IntegrationTests/Services/ProductsServiceTests.cs" Line="90" Column="62" />
+      <File FileName="webshop/Models/Product.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

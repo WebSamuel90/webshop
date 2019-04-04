@@ -38,7 +38,7 @@ namespace webshop.Repositories
         {
             using (var connection = new MySqlConnection(this.connectionString))
             {
-                connection.Execute("INSERT INTO shoes (product_id, product_name, product_image, product_brand, product_price) VALUES(@id, @name, @image, @brand, @price)", product);
+                connection.Execute("INSERT INTO shoes (product_Id, product_name, product_image, product_brand, product_price) VALUES(@product_id, @product_name, @product_image, @product_brand, @product_price)", product);
             }
         }
     }

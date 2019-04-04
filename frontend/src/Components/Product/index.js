@@ -10,7 +10,7 @@ const Product = (props) => {
             <img src={productData.product_image}/>
             <p>{productData.product_brand}</p>
             <p>{productData.product_name}</p>
-            <p>{productData.product_price}</p>
+            <p>{productData.product_price}kr</p>
         </div>
     );
 };
