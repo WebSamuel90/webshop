@@ -40,5 +40,15 @@ namespace webshop.Controllers
 
             return NotFound();
         }
+
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult Post([FromBody]Product product)
+        {
+            this.productsService.Add(product);
+
+            return Ok();
+        }
     }
 }
