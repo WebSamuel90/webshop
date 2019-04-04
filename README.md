@@ -6,4 +6,12 @@
 - Mikael
 - Ida
 
+## Author
+- [Samuel](github.com/WebSamuel90)
+
+
+## License
+[MIT](LICENSE)
+
+
 
